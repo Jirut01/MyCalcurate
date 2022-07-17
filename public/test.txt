@@ -1,0 +1,7 @@
+ $(document).ready(function(){
+        $("#formular").change(function(){
+            var nformular =$("#formular").val(); 
+            $(".fm").hide();
+            $("."+nformular).show();
+        })
+        })
